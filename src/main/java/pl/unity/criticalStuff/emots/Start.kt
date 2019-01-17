@@ -1,4 +1,4 @@
-package pl.unity.critical-stuff.emots
+package pl.unity.criticalStuff.emots
 
 object Start {
 	@JvmStatic
