@@ -1,17 +1,12 @@
 package pl.unity.criticalStuff.emots
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
-import com.upsaily.commons.utils.json.readFromJson
 import org.apache.commons.io.IOUtils
 import pl.unity.criticalStuff.emots.HipchatApi.Emoji
-import java.io.BufferedReader
 import java.io.File
 import java.io.FileOutputStream
-import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
-import javax.print.attribute.standard.Destination
-
 
 
 class HipchatEmots(token: String) {
